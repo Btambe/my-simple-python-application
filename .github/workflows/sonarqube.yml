@@ -1,0 +1,9 @@
+name: sonarqube code scanner
+on: [push]
+
+jobs:
+  sonar_scan:
+    name: scanner
+    runs-on: ubuntu-latest
+    steps:
+    
